@@ -8,6 +8,7 @@ import { useState } from 'react'
 
 function App() {
   const [darkMode, setdarkMode] = useState(false) 
+const [idMetro, setIdmetro] = useState(0)
 
   const [estado, setEstado] = useState(false)
   return (
@@ -22,7 +23,7 @@ function App() {
       </nav>
 
 
-      <main className='container mx-auto flex gap-5 flex-wrap justify-center p-3 lg:flex-nowrap '>
+      <main className='container mx-auto flex gap-5 dflex-wrap justify-center p-3 lg:flex-nowrap '>
         
         <div className='bg-slate-50 w-full m-3 p-5 shadow-lg rounded-lg lg:w-1/2 dark:border-2 border-sky-900'>
           <div className="flex items-center space-x-10">
@@ -31,7 +32,7 @@ function App() {
             <hr className="w-80 border border-gray-400" />
           </div>
           <div className='mt-10'>
-            <Formulario setEstado={setEstado} /> 
+          <Formulario setEstado={setEstado} idMetro={idMetro}/>
           </div>
         </div>
         
@@ -44,8 +45,8 @@ function App() {
             <hr className="w-80 border border-gray-400" />
           </div>
           <div className='mt-10 h-[675px] overflow-y-auto'>
-            <Listar estado={estado}/>
-          </div>
+          <Listar estado={estado} setIdmetro={setIdmetro}/>
+            </div>
         </div>
       </main>
 

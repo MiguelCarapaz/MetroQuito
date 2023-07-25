@@ -16,15 +16,5 @@
   "profile": {
     "name": "typicode"
   },
-  "metro": [
-    {
-      "nombre": "asdsda",
-      "sector": "kdjhf",
-      "salida": "kasjdl",
-      "llegada": "asdk",
-      "maquinista": "asdja",
-      "detalles": "asdsadsad",
-      "id": "1287c225-2010-479d-88e5-342c7bc80242"
-    }
-  ]
+  "metro": []
 }
