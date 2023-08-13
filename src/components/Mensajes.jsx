@@ -2,7 +2,7 @@
 
 const Mensajes = ({tipo, children}) => {
     return (
-        <div className={`${tipo} text-white text-center p-3 uppercase font-bold rounded-lg m-5`}>{children}</div>
+        <div className={`${tipo} text-white text-left font-bold mb-2`}>{children}</div>
     )
 }
 

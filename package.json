@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "formik": "^2.4.3",
     "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sweetalert2": "^11.6.13",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
