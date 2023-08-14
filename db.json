@@ -18,22 +18,13 @@
   },
   "metro": [
     {
-      "nombre": "sds",
-      "sector": "asd",
-      "salida": "asd",
-      "llegada": "asd",
-      "maquinista": "asd",
-      "detalles": "asd",
-      "id": "e483af0f-4ac5-403b-8283-9243bce7b5b3"
-    },
-    {
-      "nombre": "asd",
-      "sector": "asd",
-      "salida": "asd",
-      "llegada": "asd",
-      "maquinista": "asd",
-      "detalles": "asd",
-      "id": "dde168b3-8054-4be6-adf5-2425767d9c82"
+      "nombre": "David",
+      "sector": "Sur-Norteaaa",
+      "salida": "Magdalena",
+      "llegada": "EPN",
+      "maquinista": "aaaa",
+      "detalles": "asdasdasd",
+      "id": "fbd9265a-c934-4b9a-b947-ffa633e7a81d"
     }
   ]
 }
